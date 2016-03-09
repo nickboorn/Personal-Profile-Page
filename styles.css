@@ -191,7 +191,7 @@ a.social:hover {
 
 
 
-/* About Section Styles */
+/* Work Section Styles */
 
 .main-w {
   padding: 0 30px;
@@ -222,16 +222,18 @@ a.social:hover {
 
   .videoWrapper {
     padding-top: 1em;
-  }
-
-  .videoWrapper iframe {
     border-bottom: 4px solid rgba(1,36,43,0.8);
     border-bottom-left-radius: 6px;
     border-bottom-right-radius: 6px;
     transition: all .5s;
   }
 
-  .videoWrapper iframe:hover {
+  .videoWrapper iframe {
+    border: none;
+    vertical-align: bottom;
+  }
+
+  .videoWrapper:hover {
     border-color: #96BE88;
   }
 
